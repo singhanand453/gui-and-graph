@@ -1,6 +1,6 @@
 import sqlite3
-#name=input("enter your name")
-#salary=int(input("enter your salary"))
+name=input("enter your name")
+salary=int(input("enter your salary"))
 con=sqlite3.connect('stugentgu.db')
 cur=con.cursor()
 #cur.execute("create table stud(name text,salary integer ) ")
@@ -11,6 +11,6 @@ cur.execute("Select * from stud")
 print(cur.fetchall())
 con.commit()
 con.close();
-#print("data saved successfully")
+print("data saved successfully")
 
 
