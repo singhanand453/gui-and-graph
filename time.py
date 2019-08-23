@@ -1,6 +1,6 @@
 import smtplib
-sender_mail = 'rockencena007@gmail.com'
-receivers_mail = ['sharmanaman0512@gmail.com']
+sender_mail = 'anandpratapsingh453@gmail.com'
+receivers_mail = ['rockencena007@gmail.com']
 message = """From: From Person %s 
 To: To Person %s 
 Subject: **** ji ka launda,,
