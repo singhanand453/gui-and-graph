@@ -8,13 +8,13 @@ class student:
             self.age=age
 
         else:
-            raise age("invalid age")
+            raise age("in-valid age")
 
     def get_age(self):
         return self.age
 
 try:
-    s=student(int(input("enter age")))
-    print("age",s.get_age())
+    s=student(int(input("enter your age")))
+    print("your age",s.get_age())
 except Exception as e:
     print(e)
