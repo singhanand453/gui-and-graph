@@ -4,13 +4,13 @@ class stu:
             self.age=age
 
         else:
-            raise Exception("invalid age")
+            raise Exception("invalid age,.. enter valid age")
 
     def get_age(self):
         return self.age
 
 try:
-    a=stu(int(input("enter age")))
+    a=stu(int(input("enter your age")))
     print("age",a.get_age)
 except Exception as e:
     print(e)
