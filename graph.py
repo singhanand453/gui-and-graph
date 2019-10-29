@@ -14,7 +14,7 @@ class graph():
 
     def remove_edge(self,ori,dest):
         if ori > self.size or dest > self.size or ori < 0 or dest < 0:
-            print("trying to add an invalid age(%d,%d)"%(ori,dest))
+            print("try ..to add an invalid age(%d,%d)"%(ori,dest))
         else:
             self.adj[ori-1][dest-1]=0
             self.adj[dest-1][ori-1]=0
@@ -33,5 +33,6 @@ G.add_edge(5,1)
 G.add_edge(3,3)
 G.add_edge(7,3)
 G.add_edge(6,6)
+G.add_edge(7,7)
 
 G.display()
